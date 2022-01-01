@@ -107,7 +107,7 @@ The 1470 vector output is divided into three parts, giving the probability, conf
 
 ### Use pretrained weights
 
-Training the YOLO network is time consuming. We will download the pretrained weights from [here](#) (172M) and load them into our Keras model. The weight loading function is in the `load_weight` function in the utili class
+Training the YOLO network is time consuming. We will download the pretrained weights from [here](https://drive.google.com/drive/folders/1MX18KP93Y6qySmKg30Hw_lIlwDo1RSnc?usp=sharing) (172M) and load them into our Keras model. The weight loading function is in the `load_weight` function in the utili class
 
 ```
 load_weights(model,'./yolo-tiny.weights')
